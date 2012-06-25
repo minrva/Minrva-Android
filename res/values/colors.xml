@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  	<color name = "goldenrod_1">#FFFAF1CC</color>
+  	<color name = "goldenrod_2">#FFA4803E</color>
+   	<color name = "goldenrod_3">#FFE7C980</color>
+   	<color name = "goldenrod_4">#FFC09837</color>
+   	<color name = "goldenrod_5">#FFA4803E</color>
+  	<color name = "goldenrod_6">#FF6B4E08</color>
+   	<color name = "goldenrod_7">#FF431C00</color>
+
+  	<color name = "aqua_1">#FFE7F6FC</color>
+   	<color name = "aqua_2">#FFCFEEFA</color>
+   	<color name = "aqua_3">#FF37B6E3</color>
+   	<color name = "aqua_4">#FF00AAD6</color>
+  	    
+   	<color name = "white">#FFFFFFFF</color>
+   	<color name = "black">#FF000000</color>
+   	<color name = "gray">#FF888888</color>
+   
+   <color name = "transparent">#00000000</color>
+</resources>

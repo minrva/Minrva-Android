@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.illinois.ugl.minrva"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="7" />
+
+    <application
+        android:theme="@style/Theme.Minrva"
+        android:icon="@drawable/ic_launcher_owl"
+        android:label="@string/app_name" 
+        >
+        
+        <activity android:label="@string/app_name" android:name=".core.Tabs" android:configChanges="orientation|keyboardHidden">
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            
+                
+        	<intent-filter>
+                <action android:name="edu.illinois.ugl.minrva.ACTION_MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            
+        </activity>
+        <activity  android:name=".display.Display" android:configChanges="orientation|keyboardHidden"/>
+       	<activity  android:name=".loanabletech.LoanableTech" android:configChanges="orientation|keyboardHidden"/>
+        <activity  android:name=".scanner.Scanner" android:configChanges="orientation|keyboardHidden" android:screenOrientation="landscape"/>
+   	    <activity android:name=".vufind.VuFind" android:configChanges="orientation|keyboardHidden"/>
+        <activity  android:name=".wayfinder.Wayfinder" android:configChanges="orientation|keyboardHidden"/>
+    </application>
+    
+	<uses-permission android:name="android.permission.INTERNET"/>
+  	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+  	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  	
+</manifest>

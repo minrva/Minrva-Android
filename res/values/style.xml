@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+  	<style name="Theme.Minrva" parent="android:Theme.Light">
+    	<item name="android:windowNoTitle">true</item>
+  		<item name="android:listViewStyle">@style/MinrvaListView</item>
+  		<item name="android:textColorPrimary">#FFFFFF</item>
+   		<item name="android:textColorSecondary">#CCCCCC</item>
+   		<item name="android:textColorPrimaryInverse">#000000</item>
+  		<item name="android:textColorSecondaryInverse">#CCCCCC</item>	    
+  	</style>
+  
+	<style name="MinrvaListView" parent="@android:style/Widget.ListView">
+  		<item name="android:cacheColorHint">@android:color/transparent</item>
+    	<item name="android:dividerHeight">0dp</item>
+    	<item name="android:divider">#33B5E5</item>
+	</style>
+	    		
+	<style name="MinrvaText" parent="@android:style/TextAppearance">
+	    <item name="android:textColorPrimary">#FFFFFF</item>
+   		<item name="android:textColorSecondary">#CCCCCC</item>
+   		<item name="android:textColorPrimaryInverse">#000000</item>
+  		<item name="android:textColorSecondaryInverse">#CCCCCC</item>
+	</style>
+	
+	    
+	<style name="micro_blue_font">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#33B5E5</item>
+    </style>
+
+	<style name="small_blue_font">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#33B5E5</item>
+    </style>
+
+	<style name="medium_blue_font">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#33B5E5</item>
+    </style>
+	
+	<style name="large_blue_font">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#33B5E5</item>
+    </style>
+    
+	<style name="micro_black_font">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+	<style name="small_black_font">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+	<style name="medium_black_font">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+	
+	<style name="large_black_font">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+        
+    <style name="micro_white_font">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+	<style name="small_white_font">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+	<style name="medium_white_font">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+	
+	<style name="large_white_font">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+</resources>

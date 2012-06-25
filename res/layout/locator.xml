@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300px"
+    android:layout_height="400px"
+    android:orientation="vertical">
+
+	<TextView android:layout_width="wrap_content"
+	   android:layout_height="wrap_content" 
+	   android:text="Call Number"
+	   android:textColor="#ffffff"
+	   android:id="@+id/textSearchCallValue"> </TextView>
+
+	<TextView android:layout_width="wrap_content"
+	   android:layout_height="wrap_content" 
+	   android:textColor="#ffffff"
+	   android:text="Located on"
+	   android:id="@+id/textResourceLocation"> </TextView>
+
+		<TextView android:layout_width="wrap_content"
+	   android:layout_height="wrap_content" 
+	   android:textColor="#ffffff"
+	   android:id="@+id/textCurrentPosition"
+	   android:text="Current Position"> </TextView>
+
+	<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	 	android:id="@+id/LocatorVScrollView"
+	    android:layout_width="400px" 
+	    android:layout_height="460px"
+	    android:clipChildren="false">
+	
+			<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+		    android:id="@+id/LocatorHScrollView"
+		    android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content"
+		    android:clipChildren="false">
+	
+				<FrameLayout android:id="@+id/LocatorFrameLayout"
+				    android:layout_width="1100px"
+				    android:layout_height="1100px"
+				    android:orientation="vertical"
+				    android:clipChildren="false">
+		     	      
+	
+	
+			<ImageView
+			android:id="@+id/LocatorImg_000_100"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:visibility="invisible"
+			android:scaleType="center">
+			</ImageView>
+
+
+			<ImageView
+			android:id="@+id/LocatorImg_000_009"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:visibility="invisible"
+			android:scaleType="center">
+			</ImageView>
+
+
+
+			<ImageView
+			android:id="@+id/LocatorImg_009_000"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:visibility="invisible"
+			android:scaleType="center">
+			</ImageView>
+
+
+			<ImageView
+			android:id="@+id/LocatorImg_009_001"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:visibility="invisible"
+			android:scaleType="center">
+			</ImageView>
+
+
+			<ImageView
+			android:id="@+id/LocatorImg_009_007"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:visibility="invisible"
+			android:scaleType="center">
+			</ImageView>
+
+
+			<ImageView
+			android:id="@+id/LocatorImg_009_008"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:visibility="invisible"
+			android:scaleType="center">
+			</ImageView>
+
+
+			<ImageView
+			android:id="@+id/LocatorImg_001_002"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:visibility="invisible"
+			android:scaleType="center">
+			</ImageView>
+
+
+			<ImageView
+			android:id="@+id/LocatorImg_001_009"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:visibility="invisible"
+			android:scaleType="center">
+			</ImageView>
+
+
+			<ImageView
+			android:id="@+id/LocatorImg_002_001"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:visibility="invisible"
+			android:scaleType="center">
+			</ImageView>
+
+
+			<ImageView
+			android:id="@+id/LocatorImg_002_003"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:visibility="invisible"
+			android:scaleType="center">
+			</ImageView>
+
+
+			<ImageView
+			android:id="@+id/LocatorImg_003_002"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:visibility="invisible"
+			android:scaleType="center">
+			</ImageView>
+
+
+			<ImageView
+			android:id="@+id/LocatorImg_003_004"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:visibility="invisible"
+			android:scaleType="center">
+			</ImageView>
+
+
+			<ImageView
+			android:id="@+id/LocatorImg_004_003"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:visibility="invisible"
+			android:scaleType="center">
+			</ImageView>
+
+
+			<ImageView
+			android:id="@+id/LocatorImg_004_005"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:visibility="invisible"
+			android:scaleType="center">
+			</ImageView>
+
+
+			<ImageView
+			android:id="@+id/LocatorImg_004_008"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:visibility="invisible"
+			android:scaleType="center">
+			</ImageView>
+
+
+			<ImageView
+			android:id="@+id/LocatorImg_004_012"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:visibility="invisible"
+			android:scaleType="center">
+			</ImageView>
+
+
+			<ImageView
+			android:id="@+id/LocatorImg_005_004"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:visibility="invisible"
+			android:scaleType="center">
+			</ImageView>
+
+
+			<ImageView
+			android:id="@+id/LocatorImg_005_006"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:visibility="invisible"
+			android:scaleType="center">
+			</ImageView>
+
+
+			<ImageView
+			android:id="@+id/LocatorImg_006_005"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:visibility="invisible"
+			android:scaleType="center">
+			</ImageView>
+
+
+			<ImageView
+			android:id="@+id/LocatorImg_006_007"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:visibility="invisible"
+			android:scaleType="center">
+			</ImageView>
+
+
+			<ImageView
+			android:id="@+id/LocatorImg_007_006"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:visibility="invisible"
+			android:scaleType="center">
+			</ImageView>
+
+
+			<ImageView
+			android:id="@+id/LocatorImg_007_009"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:visibility="invisible"
+			android:scaleType="center">
+			</ImageView>
+
+
+			<ImageView
+			android:id="@+id/LocatorImg_008_004"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:visibility="invisible"
+			android:scaleType="center">
+			</ImageView>
+
+
+			<ImageView
+			android:id="@+id/LocatorImg_008_009"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:visibility="invisible"
+			android:scaleType="center">
+			</ImageView>
+
+
+			<ImageView
+			android:id="@+id/LocatorImg_012_004"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:visibility="invisible"
+			android:scaleType="center">
+			</ImageView>
+
+
+			<ImageView
+			android:id="@+id/LocatorImg_012_110"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:visibility="invisible"
+			android:scaleType="center">
+			</ImageView>
+
+
+			<ImageView
+			android:id="@+id/LocatorImg_100_200"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:visibility="invisible"
+			android:scaleType="center">
+			</ImageView>
+
+
+			<ImageView
+			android:id="@+id/LocatorImg_100_203"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:visibility="invisible"
+			android:scaleType="center">
+			</ImageView>
+
+
+			<ImageView
+			android:id="@+id/LocatorImg_100_000"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:visibility="invisible"
+			android:scaleType="center">
+			</ImageView>
+
+
+			<ImageView
+			android:id="@+id/LocatorImg_110_012"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:visibility="invisible"
+			android:scaleType="center">
+			</ImageView>
+
+
+			<ImageView
+			android:id="@+id/LocatorImg_110_207"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:visibility="invisible"
+			android:scaleType="center">
+			</ImageView>
+
+
+			<ImageView
+			android:id="@+id/LocatorImg_200_100"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:visibility="invisible"
+			android:scaleType="center">
+			</ImageView>
+					    				    	      
+			</FrameLayout>
+			
+		</HorizontalScrollView>
+	
+	</ScrollView>
+	
+
+</LinearLayout>
+		

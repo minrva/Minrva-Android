@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView 
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/scrollView1"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent" 
+android:fillViewport="true" 
+>
+	<LinearLayout
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:gravity="center_vertical"
+	>
+
+  		<edu.illinois.ugl.minrva.core.views.TextViewPlus
+ 		android:id="@+id/step1"
+ 		android:textSize="@dimen/large_font_size"
+ 		android:textColor="@color/black"
+ 		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="1) Locate Library Barcode"
+		/>
+			
+   		<View
+ 		android:id="@+id/divider"
+ 		android:background="@color/black"
+ 		android:layout_width="fill_parent"
+		android:layout_height="2dp"
+		android:layout_marginTop="10dp"
+		android:layout_marginBottom="10dp"
+		/>
+      	
+   	 	<ImageView
+  		android:id="@+id/example"
+		android:src="@drawable/scanner_example" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"  
+		android:layout_gravity="center"
+		android:scaleType= "fitCenter"
+		/>
+
+    
+  		<edu.illinois.ugl.minrva.core.views.TextViewPlus
+ 		android:id="@+id/step2"
+ 		android:textSize="@dimen/large_font_size"
+ 		android:textColor="@color/black"
+ 		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="2) Scan the Book"
+		/>
+			
+   		<View
+ 		android:id="@+id/divider"
+ 		android:background="@color/black"
+ 		android:layout_width="fill_parent"
+		android:layout_height="1dp"
+		android:layout_marginTop="10dp"
+		android:layout_marginBottom="10dp"
+		/>
+      		
+		<Button
+		android:id="@+id/begin_scan"
+   		android:layout_height="wrap_content"
+   		android:layout_width="wrap_content"
+   		android:layout_gravity="center"
+   		android:text="Start Scanning"
+   		android:onClick="selfDestruct" 
+   		android:background="@drawable/button"
+   		/>		             
+	</LinearLayout>  
+</ScrollView>
